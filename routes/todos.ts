@@ -14,7 +14,7 @@ const TodosTyped: Todo[] = todoData;
 //Get:AllTodo
 router.get("/", (req: Request, res: Response) => {
   res.json(TodosTyped);
-  console.log("get요청 : todoList전체 제공");
+  console.log("get요청. : todoList전체 제공");
 });
 
 export default router;
