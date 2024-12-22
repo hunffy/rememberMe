@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "까방권 backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunffy/rememberMe.git"
+  },
+  "keywords": [
+    "rememberMe"
+  ],
+  "author": "hunffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hunffy/rememberMe/issues"
+  },
+  "homepage": "https://github.com/hunffy/rememberMe#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tslib": "^2.8.1"
+  }
+}

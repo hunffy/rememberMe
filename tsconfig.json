@@ -1,0 +1,9 @@
+{
+  "ts-node": { "esm": true },
+  "compilerOptions": {
+    "preserveValueImports": false,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
+}
